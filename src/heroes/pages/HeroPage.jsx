@@ -23,7 +23,7 @@ console.log(arrow);
     <div className="row mt-5">
       <div className="col-4">
         <img 
-        src= { `/src/assets/heroes/${slug}.JPG` }
+        src= { `/src/assets/heroes/${slug}.jpg` }
         alt={ hero.superhero }
         className='img-thumbnail animate__backInLeft animate__animated animate__backInLeft' />
       </div>

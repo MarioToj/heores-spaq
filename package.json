@@ -2,7 +2,7 @@
   "name": "heroes-spaw",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mariotoj.github.io",
+  "homepage": "https://MarioToj.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,5 +1,5 @@
 
-import { heroes } from '../data/Heroes'
+import { heroes } from '../data/heroes'
 
 const getHeroById = ( slug ) => {
  

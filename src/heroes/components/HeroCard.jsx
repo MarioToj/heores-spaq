@@ -12,7 +12,7 @@ const HeroCard = ({
     characters 
 }) => {
 
-  const imgHero = `/assets/heroes/${id}.jpg`
+  const imgHero = `/src/assets/heroes/${id}.jpg`
 
   return (
     <div className="col animate__animated animate__backInLeft">

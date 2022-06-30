@@ -2,13 +2,12 @@ import React from 'react'
 import { useMemo } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import getHeroById from '../helpers/getHeroById';
-
+import  arrow  from '../../assets/heroes/dc-arrow.jpg'
 const HeroPage = () => {
-
   const navigateBack = useNavigate()
 
   const { slug } = useParams()
-
+console.log(arrow);
   const hero = useMemo( () => getHeroById( slug ), [ slug ] ) 
 
   const onNavigateBack = () => {
@@ -24,7 +23,7 @@ const HeroPage = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img 
-        src= { `/assets/heroes/${slug}.jpg` }
+        src= { `/src/assets/heroes/${slug}.jpg` }
         alt={ hero.superhero }
         className='img-thumbnail animate__backInLeft animate__animated animate__backInLeft' />
       </div>
